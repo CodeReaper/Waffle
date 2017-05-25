@@ -12,6 +12,7 @@ Waffle is deadsimple dependency container. Waffle does not try to do too much, i
 ## Basic Usage
 
 Suppose you have the following two datasources.
+
 ```swift
 struct UserDataSource {
     let name:String
@@ -57,3 +58,42 @@ class RestDependentViewController : UIViewController {
 ```
 
 Simple is beautiful, right?
+
+## Dealing with generics
+There is a potential issue when using Generics, but do not worry there is an easy fix for it too. Here is an example of how generics can be a problem.
+
+```swift
+let cache = NSCache<AnyObject, AnyObject>()
+let waffle = Waffle.Builder()
+    .add(NSCache<NSString, AnyObject>())
+    .add(cache)
+    .build()
+
+// NOTE: this next line fails
+let resolvedCache = try! waffle.get(NSCache<AnyObject, AnyObject>.self) // throws .multipleFound
+```
+The reason it fails is that the `Type` of both of the `NSCache`s that were added to the `waffle` is simply `NSCache` and but e.g. `NSCache<AnyObject, AnyObject>`.
+
+The workaround is simple enough, you just create a named class instead. Here is an example how to work around the generics issue.
+
+```swift
+class NamedCache : NSCache<AnyObject, AnyObject> { }
+let cache = NamedCache()
+let waffle = Waffle.Builder()
+    .add(NSCache<NSString, AnyObject>())
+    .add(cache)
+    .build()
+
+let resolvedCache = try! waffle.get(NamedCache.self) // this does not throw an error
+```
+
+## FAQ
+<dl>
+
+<dt>Why did you make Waffle?</dt>
+<dd>I did not understand why all the other dependency managers/injectors were bloated, so I felt like making an alternative solution.</dd>
+
+<dt>Why is it named 'Waffle'?</dt>
+<dd>Waffles are delicous and I am carving one right now.</dd>
+
+</dl>
