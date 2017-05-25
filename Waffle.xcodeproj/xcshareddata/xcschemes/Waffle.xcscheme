@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EBB79D2E1ED6F7ED0037085E"
-               BuildableName = "Waffle.app"
+               BlueprintIdentifier = "EBBE52481ED7473200BA4EAF"
+               BuildableName = "Waffle.framework"
                BlueprintName = "Waffle"
                ReferencedContainer = "container:Waffle.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EBB79D421ED6F7EE0037085E"
+               BlueprintIdentifier = "EBBE52511ED7473200BA4EAF"
                BuildableName = "WaffleTests.xctest"
                BlueprintName = "WaffleTests"
                ReferencedContainer = "container:Waffle.xcodeproj">
@@ -42,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EBB79D2E1ED6F7ED0037085E"
-            BuildableName = "Waffle.app"
+            BlueprintIdentifier = "EBBE52481ED7473200BA4EAF"
+            BuildableName = "Waffle.framework"
             BlueprintName = "Waffle"
             ReferencedContainer = "container:Waffle.xcodeproj">
          </BuildableReference>
@@ -61,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EBB79D2E1ED6F7ED0037085E"
-            BuildableName = "Waffle.app"
+            BlueprintIdentifier = "EBBE52481ED7473200BA4EAF"
+            BuildableName = "Waffle.framework"
             BlueprintName = "Waffle"
             ReferencedContainer = "container:Waffle.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EBB79D2E1ED6F7ED0037085E"
-            BuildableName = "Waffle.app"
+            BlueprintIdentifier = "EBBE52481ED7473200BA4EAF"
+            BuildableName = "Waffle.framework"
             BlueprintName = "Waffle"
             ReferencedContainer = "container:Waffle.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

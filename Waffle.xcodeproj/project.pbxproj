@@ -7,117 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB3142AF1ED6FA7700FAE984 /* Waffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3142AE1ED6FA7700FAE984 /* Waffle.swift */; };
-		EBB79D331ED6F7ED0037085E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB79D321ED6F7ED0037085E /* AppDelegate.swift */; };
-		EBB79D351ED6F7ED0037085E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB79D341ED6F7ED0037085E /* ViewController.swift */; };
-		EBB79D381ED6F7ED0037085E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB79D361ED6F7ED0037085E /* Main.storyboard */; };
-		EBB79D3A1ED6F7ED0037085E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB79D391ED6F7ED0037085E /* Assets.xcassets */; };
-		EBB79D3D1ED6F7ED0037085E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB79D3B1ED6F7ED0037085E /* LaunchScreen.storyboard */; };
-		EBB79D481ED6F7EE0037085E /* WaffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB79D471ED6F7EE0037085E /* WaffleTests.swift */; };
+		EB200B7C1ED7484C0046CFA5 /* Waffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB200B7B1ED7484C0046CFA5 /* Waffle.swift */; };
+		EBBE52531ED7473200BA4EAF /* Waffle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBE52491ED7473200BA4EAF /* Waffle.framework */; };
+		EBBE52581ED7473200BA4EAF /* WaffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBE52571ED7473200BA4EAF /* WaffleTests.swift */; };
+		EBBE525A1ED7473200BA4EAF /* Waffle.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBE524C1ED7473200BA4EAF /* Waffle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EBB79D441ED6F7EE0037085E /* PBXContainerItemProxy */ = {
+		EBBE52541ED7473200BA4EAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EBB79D271ED6F7ED0037085E /* Project object */;
+			containerPortal = EBBE52401ED7473200BA4EAF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EBB79D2E1ED6F7ED0037085E;
+			remoteGlobalIDString = EBBE52481ED7473200BA4EAF;
 			remoteInfo = Waffle;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB3142AE1ED6FA7700FAE984 /* Waffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waffle.swift; sourceTree = "<group>"; };
-		EBB79D2F1ED6F7ED0037085E /* Waffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBB79D321ED6F7ED0037085E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBB79D341ED6F7ED0037085E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EBB79D371ED6F7ED0037085E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EBB79D391ED6F7ED0037085E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EBB79D3C1ED6F7ED0037085E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EBB79D3E1ED6F7ED0037085E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBB79D431ED6F7EE0037085E /* WaffleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaffleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBB79D471ED6F7EE0037085E /* WaffleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaffleTests.swift; sourceTree = "<group>"; };
-		EBB79D491ED6F7EE0037085E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB200B7B1ED7484C0046CFA5 /* Waffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waffle.swift; sourceTree = "<group>"; };
+		EBBE52491ED7473200BA4EAF /* Waffle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Waffle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBE524C1ED7473200BA4EAF /* Waffle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waffle.h; sourceTree = "<group>"; };
+		EBBE524D1ED7473200BA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBE52521ED7473200BA4EAF /* WaffleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaffleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBE52571ED7473200BA4EAF /* WaffleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaffleTests.swift; sourceTree = "<group>"; };
+		EBBE52591ED7473200BA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EBB79D2C1ED6F7ED0037085E /* Frameworks */ = {
+		EBBE52451ED7473200BA4EAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB79D401ED6F7EE0037085E /* Frameworks */ = {
+		EBBE524F1ED7473200BA4EAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBE52531ED7473200BA4EAF /* Waffle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB3142AD1ED6FA7700FAE984 /* Classes */ = {
+		EB200B7A1ED7484C0046CFA5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EB3142AE1ED6FA7700FAE984 /* Waffle.swift */,
+				EB200B7B1ED7484C0046CFA5 /* Waffle.swift */,
 			);
-			path = Classes;
+			name = Classes;
+			path = Waffle/Classes;
 			sourceTree = "<group>";
 		};
-		EBB79D261ED6F7ED0037085E = {
+		EBBE523F1ED7473200BA4EAF = {
 			isa = PBXGroup;
 			children = (
-				EBB79D311ED6F7ED0037085E /* Waffle */,
-				EBB79D461ED6F7EE0037085E /* WaffleTests */,
-				EBB79D301ED6F7ED0037085E /* Products */,
+				EB200B7A1ED7484C0046CFA5 /* Classes */,
+				EBBE524B1ED7473200BA4EAF /* Waffle */,
+				EBBE52561ED7473200BA4EAF /* WaffleTests */,
+				EBBE524A1ED7473200BA4EAF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EBB79D301ED6F7ED0037085E /* Products */ = {
+		EBBE524A1ED7473200BA4EAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBB79D2F1ED6F7ED0037085E /* Waffle.app */,
-				EBB79D431ED6F7EE0037085E /* WaffleTests.xctest */,
+				EBBE52491ED7473200BA4EAF /* Waffle.framework */,
+				EBBE52521ED7473200BA4EAF /* WaffleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EBB79D311ED6F7ED0037085E /* Waffle */ = {
+		EBBE524B1ED7473200BA4EAF /* Waffle */ = {
 			isa = PBXGroup;
 			children = (
-				EBB79D321ED6F7ED0037085E /* AppDelegate.swift */,
-				EBB79D391ED6F7ED0037085E /* Assets.xcassets */,
-				EB3142AD1ED6FA7700FAE984 /* Classes */,
-				EBB79D3E1ED6F7ED0037085E /* Info.plist */,
-				EBB79D3B1ED6F7ED0037085E /* LaunchScreen.storyboard */,
-				EBB79D361ED6F7ED0037085E /* Main.storyboard */,
-				EBB79D341ED6F7ED0037085E /* ViewController.swift */,
+				EBBE524C1ED7473200BA4EAF /* Waffle.h */,
+				EBBE524D1ED7473200BA4EAF /* Info.plist */,
 			);
 			path = Waffle;
 			sourceTree = "<group>";
 		};
-		EBB79D461ED6F7EE0037085E /* WaffleTests */ = {
+		EBBE52561ED7473200BA4EAF /* WaffleTests */ = {
 			isa = PBXGroup;
 			children = (
-				EBB79D471ED6F7EE0037085E /* WaffleTests.swift */,
-				EBB79D491ED6F7EE0037085E /* Info.plist */,
+				EBBE52571ED7473200BA4EAF /* WaffleTests.swift */,
+				EBBE52591ED7473200BA4EAF /* Info.plist */,
 			);
 			path = WaffleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EBBE52461ED7473200BA4EAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBE525A1ED7473200BA4EAF /* Waffle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		EBB79D2E1ED6F7ED0037085E /* Waffle */ = {
+		EBBE52481ED7473200BA4EAF /* Waffle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBB79D4C1ED6F7EE0037085E /* Build configuration list for PBXNativeTarget "Waffle" */;
+			buildConfigurationList = EBBE525D1ED7473200BA4EAF /* Build configuration list for PBXNativeTarget "Waffle" */;
 			buildPhases = (
-				EBBE523E1ED73CB900BA4EAF /* Linting */,
-				EBB79D2B1ED6F7ED0037085E /* Sources */,
-				EBB79D2C1ED6F7ED0037085E /* Frameworks */,
-				EBB79D2D1ED6F7ED0037085E /* Resources */,
+				EBBE52441ED7473200BA4EAF /* Sources */,
+				EBBE52451ED7473200BA4EAF /* Frameworks */,
+				EBBE52461ED7473200BA4EAF /* Headers */,
+				EBBE52471ED7473200BA4EAF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -125,78 +127,73 @@
 			);
 			name = Waffle;
 			productName = Waffle;
-			productReference = EBB79D2F1ED6F7ED0037085E /* Waffle.app */;
-			productType = "com.apple.product-type.application";
+			productReference = EBBE52491ED7473200BA4EAF /* Waffle.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		EBB79D421ED6F7EE0037085E /* WaffleTests */ = {
+		EBBE52511ED7473200BA4EAF /* WaffleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBB79D4F1ED6F7EE0037085E /* Build configuration list for PBXNativeTarget "WaffleTests" */;
+			buildConfigurationList = EBBE52601ED7473200BA4EAF /* Build configuration list for PBXNativeTarget "WaffleTests" */;
 			buildPhases = (
-				EBB79D3F1ED6F7EE0037085E /* Sources */,
-				EBB79D401ED6F7EE0037085E /* Frameworks */,
-				EBB79D411ED6F7EE0037085E /* Resources */,
+				EBBE524E1ED7473200BA4EAF /* Sources */,
+				EBBE524F1ED7473200BA4EAF /* Frameworks */,
+				EBBE52501ED7473200BA4EAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EBB79D451ED6F7EE0037085E /* PBXTargetDependency */,
+				EBBE52551ED7473200BA4EAF /* PBXTargetDependency */,
 			);
 			name = WaffleTests;
 			productName = WaffleTests;
-			productReference = EBB79D431ED6F7EE0037085E /* WaffleTests.xctest */;
+			productReference = EBBE52521ED7473200BA4EAF /* WaffleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EBB79D271ED6F7ED0037085E /* Project object */ = {
+		EBBE52401ED7473200BA4EAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				TargetAttributes = {
-					EBB79D2E1ED6F7ED0037085E = {
+					EBBE52481ED7473200BA4EAF = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
-					EBB79D421ED6F7EE0037085E = {
+					EBBE52511ED7473200BA4EAF = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = EBB79D2E1ED6F7ED0037085E;
 					};
 				};
 			};
-			buildConfigurationList = EBB79D2A1ED6F7ED0037085E /* Build configuration list for PBXProject "Waffle" */;
+			buildConfigurationList = EBBE52431ED7473200BA4EAF /* Build configuration list for PBXProject "Waffle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = EBB79D261ED6F7ED0037085E;
-			productRefGroup = EBB79D301ED6F7ED0037085E /* Products */;
+			mainGroup = EBBE523F1ED7473200BA4EAF;
+			productRefGroup = EBBE524A1ED7473200BA4EAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBB79D2E1ED6F7ED0037085E /* Waffle */,
-				EBB79D421ED6F7EE0037085E /* WaffleTests */,
+				EBBE52481ED7473200BA4EAF /* Waffle */,
+				EBBE52511ED7473200BA4EAF /* WaffleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EBB79D2D1ED6F7ED0037085E /* Resources */ = {
+		EBBE52471ED7473200BA4EAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB79D3D1ED6F7ED0037085E /* LaunchScreen.storyboard in Resources */,
-				EBB79D3A1ED6F7ED0037085E /* Assets.xcassets in Resources */,
-				EBB79D381ED6F7ED0037085E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB79D411ED6F7EE0037085E /* Resources */ = {
+		EBBE52501ED7473200BA4EAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,73 +202,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		EBBE523E1ED73CB900BA4EAF /* Linting */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Linting;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint is not installed - try brew install swiftlint\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		EBB79D2B1ED6F7ED0037085E /* Sources */ = {
+		EBBE52441ED7473200BA4EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB79D351ED6F7ED0037085E /* ViewController.swift in Sources */,
-				EBB79D331ED6F7ED0037085E /* AppDelegate.swift in Sources */,
-				EB3142AF1ED6FA7700FAE984 /* Waffle.swift in Sources */,
+				EB200B7C1ED7484C0046CFA5 /* Waffle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB79D3F1ED6F7EE0037085E /* Sources */ = {
+		EBBE524E1ED7473200BA4EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB79D481ED6F7EE0037085E /* WaffleTests.swift in Sources */,
+				EBBE52581ED7473200BA4EAF /* WaffleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EBB79D451ED6F7EE0037085E /* PBXTargetDependency */ = {
+		EBBE52551ED7473200BA4EAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBB79D2E1ED6F7ED0037085E /* Waffle */;
-			targetProxy = EBB79D441ED6F7EE0037085E /* PBXContainerItemProxy */;
+			target = EBBE52481ED7473200BA4EAF /* Waffle */;
+			targetProxy = EBBE52541ED7473200BA4EAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		EBB79D361ED6F7ED0037085E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBB79D371ED6F7ED0037085E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EBB79D3B1ED6F7ED0037085E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBB79D3C1ED6F7ED0037085E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		EBB79D4A1ED6F7EE0037085E /* Debug */ = {
+		EBBE525B1ED7473200BA4EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,6 +254,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -319,10 +279,12 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EBB79D4B1ED6F7EE0037085E /* Release */ = {
+		EBBE525C1ED7473200BA4EAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,6 +308,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -363,92 +326,102 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		EBB79D4D1ED6F7EE0037085E /* Debug */ = {
+		EBBE525E1ED7473200BA4EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Waffle/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codereaper.Waffle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EBB79D4E1ED6F7EE0037085E /* Release */ = {
+		EBBE525F1ED7473200BA4EAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Waffle/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codereaper.Waffle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		EBB79D501ED6F7EE0037085E /* Debug */ = {
+		EBBE52611ED7473200BA4EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WaffleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codereaper.WaffleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waffle.app/Waffle";
 			};
 			name = Debug;
 		};
-		EBB79D511ED6F7EE0037085E /* Release */ = {
+		EBBE52621ED7473200BA4EAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WaffleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codereaper.WaffleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waffle.app/Waffle";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EBB79D2A1ED6F7ED0037085E /* Build configuration list for PBXProject "Waffle" */ = {
+		EBBE52431ED7473200BA4EAF /* Build configuration list for PBXProject "Waffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBB79D4A1ED6F7EE0037085E /* Debug */,
-				EBB79D4B1ED6F7EE0037085E /* Release */,
+				EBBE525B1ED7473200BA4EAF /* Debug */,
+				EBBE525C1ED7473200BA4EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBB79D4C1ED6F7EE0037085E /* Build configuration list for PBXNativeTarget "Waffle" */ = {
+		EBBE525D1ED7473200BA4EAF /* Build configuration list for PBXNativeTarget "Waffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBB79D4D1ED6F7EE0037085E /* Debug */,
-				EBB79D4E1ED6F7EE0037085E /* Release */,
+				EBBE525E1ED7473200BA4EAF /* Debug */,
+				EBBE525F1ED7473200BA4EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBB79D4F1ED6F7EE0037085E /* Build configuration list for PBXNativeTarget "WaffleTests" */ = {
+		EBBE52601ED7473200BA4EAF /* Build configuration list for PBXNativeTarget "WaffleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBB79D501ED6F7EE0037085E /* Debug */,
-				EBB79D511ED6F7EE0037085E /* Release */,
+				EBBE52611ED7473200BA4EAF /* Debug */,
+				EBBE52621ED7473200BA4EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EBB79D271ED6F7ED0037085E /* Project object */;
+	rootObject = EBBE52401ED7473200BA4EAF /* Project object */;
 }
