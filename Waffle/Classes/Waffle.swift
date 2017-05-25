@@ -1,7 +1,7 @@
 
 import Foundation
 
-enum WaffleError : Error {
+enum WaffleError: Error {
     case notFound, multipleFound
 }
 

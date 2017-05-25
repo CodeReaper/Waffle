@@ -114,6 +114,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBB79D4C1ED6F7EE0037085E /* Build configuration list for PBXNativeTarget "Waffle" */;
 			buildPhases = (
+				EBBE523E1ED73CB900BA4EAF /* Linting */,
 				EBB79D2B1ED6F7ED0037085E /* Sources */,
 				EBB79D2C1ED6F7ED0037085E /* Frameworks */,
 				EBB79D2D1ED6F7ED0037085E /* Resources */,
@@ -203,6 +204,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBBE523E1ED73CB900BA4EAF /* Linting */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Linting;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint is not installed - try brew install swiftlint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBB79D2B1ED6F7ED0037085E /* Sources */ = {
