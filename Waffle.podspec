@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
   s.name             = 'Waffle'
   s.version          = '1.0.2'
-  s.summary          = 'Waffle is deadsimple dependency container.'
+  s.summary          = 'Waffle is a deadsimple dependency container.'
 
   s.description      = <<-DESC
-Waffle is deadsimple dependency container. Waffle does not try to do too much, it will meet between 80 to 100 percent of your needs and allows you to extend Waffle so you can match all of your needs.
+Waffle is a deadsimple dependency container. Waffle does not try to do too much, it will meet between 80 to 100 percent of your needs and allows you to extend Waffle so you can match all of your needs.
                        DESC
 
   s.homepage         = 'https://github.com/CodeReaper/Waffle'

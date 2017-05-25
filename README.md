@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/cocoapods/l/Waffle.svg?style=flat)](http://cocoapods.org/pods/Waffle)
 [![Platforms](https://img.shields.io/cocoapods/p/Waffle.svg)](http://cocoapods.org/pods/Waffle)
 
-Waffle is deadsimple dependency container. Waffle does not try to do too much, it will meet between 80 to 100 percent of your needs and allows you to extend Waffle so you can match all of your needs.
+Waffle is a deadsimple dependency container. Waffle does not try to do too much, it will meet between 80 to 100 percent of your needs and allows you to extend Waffle so you can match all of your needs.
 
 ## Basic Usage
 
