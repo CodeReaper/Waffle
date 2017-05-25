@@ -11,7 +11,7 @@ before_script:
 script:
   - set -o pipefail
   - open -b com.apple.iphonesimulator # Workaround https://github.com/travis-ci/travis-ci/issues/3040
-  - xcodebuild clean test -project "$PROJECT" -scheme "Waffle" -destination "platform=iOS Simulator,name=iPhone 6 Plus,OS=latest" -configuration Release ENABLE_TESTABILITY=YES | xcpretty
+  - xcodebuild clean test -project "Waffle.xcodeproj" -scheme "Waffle" -destination "platform=iOS Simulator,name=iPhone 6 Plus,OS=latest" -configuration Release ENABLE_TESTABILITY=YES | xcpretty
 notifications:
   email:
     on_success: never
