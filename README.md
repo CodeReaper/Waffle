@@ -1,11 +1,9 @@
 # Waffle
 
 [![Travis CI](https://travis-ci.org/CodeReaper/Waffle.svg?branch=master)](https://travis-ci.org/CodeReaper/Waffle)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods Version](https://img.shields.io/cocoapods/v/Waffle.svg?style=flat)](http://cocoapods.org/pods/Waffle)
 [![License](https://img.shields.io/cocoapods/l/Waffle.svg?style=flat)](http://cocoapods.org/pods/Waffle)
-[![Platforms](https://img.shields.io/badge/platform-iOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS%20%7C%20Linux-lightgrey.svg)](http://cocoapods.org/pods/Waffle)
-[![release version](https://img.shields.io/github/release/CodeReaper/Waffle.svg?style=flat)](https://github.com/CodeReaper/Waffle)
+[![Platforms](https://img.shields.io/cocoapods/p/Waffle.svg)](http://cocoapods.org/pods/Waffle)
 
 Waffle is deadsimple dependency container. Waffle does not try to do too much, it will meet between 80 to 100 percent of your needs and allows you to extend Waffle so you can match all of your needs.
 
