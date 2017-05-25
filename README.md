@@ -1,6 +1,7 @@
 # Waffle
 
 [![Travis CI](https://travis-ci.org/CodeReaper/Waffle.svg?branch=master)](https://travis-ci.org/CodeReaper/Waffle)
+[![codecov](https://codecov.io/gh/CodeReaper/Waffle/branch/master/graph/badge.svg)](https://codecov.io/gh/CodeReaper/Waffle)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods Version](https://img.shields.io/cocoapods/v/Waffle.svg?style=flat)](http://cocoapods.org/pods/Waffle)
 [![License](https://img.shields.io/cocoapods/l/Waffle.svg?style=flat)](http://cocoapods.org/pods/Waffle)
