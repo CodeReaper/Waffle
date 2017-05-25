@@ -105,4 +105,30 @@ class WaffleTests: XCTestCase {
             XCTAssertEqual(cache, resolvedCache)
         }
     }
+
+    func testOfREADMEExample() {
+        struct UserDataSource {
+            let name:String
+        }
+        struct RestDataSource {
+            let userDataSource:UserDataSource
+
+            func sayHi() -> String {
+                return "Hi, \(userDataSource.name)"
+            }
+        }
+
+        let name = "Mr. Example"
+        let userDataSource = UserDataSource(name:name)
+        let restDataSource = RestDataSource(userDataSource: userDataSource)
+
+        let waffle = Waffle.Builder()
+            .add(userDataSource)
+            .add(restDataSource)
+            .build()
+
+        let resolvedDataSource = try! waffle.get(RestDataSource.self)
+        let hiMessage = resolvedDataSource.sayHi()
+        XCTAssertEqual("Hi, \(name)", hiMessage)
+    }
 }
