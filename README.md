@@ -94,6 +94,6 @@ let resolvedCache = try! waffle.get(NamedCache.self) // this does not throw an e
 <dd>I did not understand why all the other dependency managers/injectors were bloated, so I felt like making an alternative solution.</dd>
 
 <dt>Why is it named 'Waffle'?</dt>
-<dd>Waffles are delicous and I am carving one right now.</dd>
+<dd>Waffles are delicous and I am craving one right now.</dd>
 
 </dl>
