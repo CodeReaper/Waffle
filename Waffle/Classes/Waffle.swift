@@ -9,13 +9,15 @@ open class Waffle {
     open class Builder {
         private var items:[Any] = []
 
+        public init() { }
+
         @discardableResult
-        func add(_ item:Any) -> Builder {
+        public func add(_ item:Any) -> Builder {
             items.append(item)
             return self
         }
 
-        func build() -> Waffle {
+        public func build() -> Waffle {
             return Waffle(items: items)
         }
     }
@@ -25,7 +27,7 @@ open class Waffle {
         self.items = items
     }
 
-    func get<T>(_ type: T.Type) throws -> T {
+    public func get<T>(_ type: T.Type) throws -> T {
         let resolved = items.filter { $0 is T }
         guard resolved.count > 0 else {
             throw WaffleError.notFound

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Waffle'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Waffle is a deadsimple dependency container.'
 
   s.description      = <<-DESC
