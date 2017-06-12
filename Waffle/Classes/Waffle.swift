@@ -7,12 +7,25 @@ enum WaffleError: Error {
 
 open class Waffle {
     open class Builder {
-        private var items:[Any] = []
+        private var items:[Any]
 
-        public init() { }
+        public init(items:[Any] = []) {
+            self.items = items
+        }
 
         @discardableResult
         public func add(_ item:Any) -> Builder {
+            items.append(item)
+            return self
+        }
+
+        @discardableResult
+        public func replace(_ item:Any) -> Builder {
+            let type = type(of: item)
+            let index = items.index(where: { type(of: $0) == type })
+            if let index = index {
+                items.remove(at: index)
+            }
             items.append(item)
             return self
         }
@@ -36,5 +49,9 @@ open class Waffle {
             throw WaffleError.multipleFound
         }
         return resolved.first! as! T
+    }
+
+    public func rebuild() -> Waffle.Builder {
+        return Waffle.Builder(items: items)
     }
 }

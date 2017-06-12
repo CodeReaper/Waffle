@@ -131,4 +131,39 @@ class WaffleTests: XCTestCase {
         let hiMessage = resolvedDataSource.sayHi()
         XCTAssertEqual("Hi, \(name)", hiMessage)
     }
+
+    func testRebuildUsage() {
+        let cache = NSCache<AnyObject, AnyObject>()
+        let waffle = Waffle.Builder()
+            .add(String())
+            .build()
+
+        let rebuiltWaffle = waffle.rebuild().add(cache).build()
+
+        let resolvedCache = try! rebuiltWaffle.get(NSCache<AnyObject, AnyObject>.self)
+        XCTAssertEqual(cache, resolvedCache)
+    }
+
+    func testReplaceUsage() {
+        let stringA = "A"
+        let stringB = "B"
+        let waffle = Waffle.Builder()
+            .add(stringA)
+            .build()
+
+        let rebuiltWaffle = waffle.rebuild().replace(stringB).build()
+
+        let resolvedString = try! rebuiltWaffle.get(String.self)
+        XCTAssertEqual(stringB, resolvedString)
+    }
+
+    func testReplaceMiss() {
+        let string = "A"
+        let waffle = Waffle.Builder()
+            .replace(string)
+            .build()
+
+        let resolvedString = try! waffle.get(String.self)
+        XCTAssertEqual(string, resolvedString)
+    }
 }
