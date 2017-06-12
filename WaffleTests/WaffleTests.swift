@@ -20,10 +20,7 @@ class WaffleTests: XCTestCase {
             let _ = try Waffle.Builder().build().get(String.self)
             XCTFail("failed to throw error")
         } catch let error {
-            guard let error = error as? WaffleError else {
-                return XCTFail("failed to throw waffle error")
-            }
-            XCTAssertEqual(WaffleError.notFound, error)
+            XCTAssertEqual(WaffleError.notFound, error as! WaffleError)
         }
     }
 
@@ -39,10 +36,7 @@ class WaffleTests: XCTestCase {
             let _ = try waffle.get(NSCache<AnyObject, AnyObject>.self)
             XCTFail("failed to throw error")
         } catch let error {
-            guard let error = error as? WaffleError else {
-                return XCTFail("failed to throw waffle error")
-            }
-            XCTAssertEqual(WaffleError.multipleFound, error)
+            XCTAssertEqual(WaffleError.multipleFound, error as! WaffleError)
         }
     }
 
